@@ -2,12 +2,6 @@
 
 I am an awesome student at Lehigh, you should hire me!
 
-<!-- Upload your own photo and change the path -->
-
-<p style="text-align:center;">
-  <img class="img-circle" src="https://github.com/jonahnathan0/jonahnathan0/raw/master/images/Jonah-LinkedIn.jpg" width="50%">
-</p>
-
 ---
 
 ## Portfolio
