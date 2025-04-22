@@ -113,14 +113,32 @@ As I mentioned already, one caveat about my data is that my contextual sentiment
 
 ### Results Section
 
-
-
-
-
 <img src="images/dummy_thumbnail.jpg?raw=true"/>
 
-### 4. Provide a basis for further data collection through surveys or experiments
+Four discussion topics:
 
-Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. 
+On (1), (2), and (3) below: Focus just on the first return variable (which will examine returns around the 10-K publication)
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+On (4) below: Focus on how the “ML sentiment” variables (positive and negative) are related to the different return measures.
+
+1. Compare / contrast the relationship between the returns variable and the two “LM Sentiment” variables (positive and negative) with the relationship between the returns variable and the two “ML Sentiment” variables (positive and negative). Focus on the patterns of the signs of the relationships and the magnitudes.
+
+2. If your comparison/contrast conflicts with Table 3 of the Garcia, Hu, and Rohrer paper (ML_JFE.pdf, in the repo), discuss and brainstorm possible reasons why you think the results may differ. If your patterns agree, discuss why you think they bothered to include so many more firms and years and additional controls in their study? (It was more work than we did on this midterm, so why do it to get to the same point?)
+
+3. Discuss your 3 “contextual” sentiment measures. Do they have a relationship with returns that looks “different enough” from zero to investigate further? If so, make an economic argument for why sentiment in that context can be value relevant.
+
+4. Is there a difference in the sign and magnitude? Speculate on why or why not.
+
+**1.** 
+To compare and contrast these relationships, the LM sentiment measures show a negative relationship with returns, with Negative LM at -0.03 and Positive LM at -0.05. In contrast, the ML sentiment measures display a more mixed relationship where Negative BHR is positively correlated at 0.05, while Positive BHR shows a negative correlation at -0.01. All of these correlations are generally pretty weak, but they are quite interesting to look at. In the LM sentiment measures Positive LM has a stronger negative correlation than Negative LM which is odd because you'd typically expect positive language to reflect positively on returns, but thats not the case here. This is also somewhat true in the ML sentiment measures as we see that negative lanuage has a positive correlation to returns which is not what one would expect. These unexpected results may suggest that people interpret certain types of language differently than traditional sentiment assumptions in these dictionaries or there may be potential errors or limitations in my sentiment scoring process that impacted the results.
+
+**2.**
+My compare and contrast from above somewhat contrasts with Table 3 of the Garcia, Hu, and Rohrer paper. My LM sentiment measures somewhat aligned with Table 3 as they showed a negative relationship with returns just not at the same magnitude, however, the ML sentiment measures show a more significant conflict. In Table 3, Positive ML Sentiment shows a positive relationship with returns at 0.11 while Negative ML Sentiment shows a negative relationship -0.05. This differs from my analysis where Negative BHR Sentiment or Negative ML Sentiment has a positive correlation of 0.05 while Positive BHR Sentiment shows a negative correlation of -0.01. This difference suggests there may be issues with my sentiment scoring process as they don't follow suit. Given my results only somewhat aligned with their Table 3, the Garcia, Hu, and Rohrer study's larger sample size, extended time frame, and additional controls likely improved the reliability of their results. By including more firms and accounting for firm size and industry effects they were able to better find the true impact that positive or negative sentiment has on returns.
+
+**3.**
+The contextual sentiment measures show very weak correlations with returns showing that they have limited immediate impact. They don't look "different enough" from zero to really investigate further to see if they truly are making an impact. It would be quite difficult to make any economic argument as to why sentiment on any of these topics would be relevant in making a decision when investing. That said, I think if I created a larger dictionary of words to look for this would potentially increase the sentiment scores and could potentially be seen as a reflection in returns. This would lead to increased correlation, however, given the current numbers it would be very hard to say that these topics have a significant impact on return data.
+
+**4.**
+The ML and LM sentiment variables show distinct patterns as the LM measures have stronger negative correlations, while ML measures specifically the Negative BHR Sentiment shows a surprising positive correlation. This difference could be due to simply how each dictionary classified different language. Given all correlations are close to zero maybe this suggests that these lists include more neutral or both positive and negative language than they had meant to include. I think it's important to note that as the return window expands the correlations generally become stronger. This delayed increase in correlation as cumulative returns are added could suggest that the impact of sentiment actually takes some time to materialize meaning that investors are reacting more gradually to language in 10K filings.
+
+[Back to Home Page](https://jonahnathan0.github.io/)
