@@ -33,14 +33,37 @@ For the contextual sentiments this process was similar, but also included ```NEA
 
 **These datapoints about the sentiment variables:**
 - How many words are in the LM positive dictionary?
+  - Number of words in LM Positive dictionary: 347
 - How many words are in the LM negative dictionary?
+  - Number of words in LM Negative dictionary: 2345
 - How many words are in the ML positive dictionary?
+  - Number of words in ML Positive dictionary: 75
 - How many words are in the ML negative dictionary?
+  - Number of words in ML Negative dictionary: 94
 
-Number of words in LM Positive dictionary: 347
-Number of words in LM Negative dictionary: 2345
-Number of words in ML Positive dictionary: 75
-Number of words in ML Negative dictionary: 94
+```python
+import pandas as pd
+
+file_path = "inputs/LM_MasterDictionary_1993-2021.csv"
+df = pd.read_csv(file_path)
+LM_positive = df[df['Positive'] > 0]['Word'].tolist()
+LM_negative = df[df['Negative'] > 0]['Word'].tolist()
+
+with open('inputs/ML_positive_unigram.txt', 'r') as file:
+    BHR_positive = [line.strip().lower() for line in file]
+with open('inputs/ML_negative_unigram.txt', 'r') as file:
+    BHR_negative = [line.strip().lower() for line in file]
+
+lm_positive_words = len(LM_positive)
+lm_negative_words = len(LM_negative)
+ml_positive_words = len(BHR_positive)
+ml_negative_words = len(BHR_negative)
+
+print(f'Number of words in LM Positive dictionary: {lm_positive_words}')
+print(f'Number of words in LM Negative dictionary: {lm_negative_words}')
+print(f'Number of words in ML Positive dictionary: {ml_positive_words}')
+print(f'Number of words in ML Negative dictionary: {ml_negative_words}')
+```
 
 **A description of how you set up the near_regex function (partial = true or false, distance = what) and why you chose the values you did.**
 
@@ -49,6 +72,47 @@ As I explained above, I set ```greedy=False``` in the ```NEAR_finder()``` functi
 **Why did you choose the three topics you did for the “contextual sentiment” measures?**
 
 I chose strategic moves, leadership & governance, and industry trends because I thought they could be potential topics discussed in 10ks that could hav a substantial impact on the future returns. Strategic moves such as mergers, acquisitions, and divestitures often are a sign that could reflect growth, risk, or operational changes, so I felt that if they were being positively or negatively talked about in a 10k then a company's returns would be reflected in that way. I also choce leadership & governance as it focuses on executive changes, board decisions, corporate policies, and more which are all of extreme importance when assessing a company's stability and direction. Finally, I chose industry trends as I wanted to see some broader market shifts, technological advancements, and possible pressures that often shape how a company positions itself within an industry. I felt as though these topics would be relevant in 10ks and thought that they could all have potential impacts on a company's returns.
+
+**Show and discuss summary stats of your final analysis sample**
+```python
+df = pd.read_csv("output/analysis_sample.csv")
+df.describe()
+```
+
+|       | CIK        | ret       | c_ret_t_t+2 | c_ret_t+3_t+10 | Negative BHR Sentiment Score | Positive BHR Score | Negative LM Score | Positive LM Score | Negative Strategic Sentiment Score | Positive Strategic Sentiment Score | Negative Leadership & Governance Sentiment Score | Positive Leadership & Governance Sentiment Score | Negative Industry Trends Sentiment Score | Positive Industry Trends Sentiment Score |
+|:------|:-----------|:----------|:------------|:---------------|:-----------------------------|:-------------------|:------------------|:------------------|:-----------------------------------|:----------------------------------|:-------------------------------------------------|:------------------------------------------------|:-----------------------------------------|:----------------------------------------|
+| count | 4.980000e+02 | 489.000000 | 498.000000  | 498.000000     | 498.000000                   | 498.000000         | 498.000000         | 498.000000         | 498.000000                         | 498.000000                        | 498.000000                                     | 498.000000                                  | 498.000000                             | 498.000000                            |
+| mean  | 7.851046e+05 | 0.000742   | 0.003299    | -0.008148      | 0.038893                     | 0.042032           | 0.037060           | 0.014876           | 0.000565                           | 0.000427                          | 0.000382                                       | 0.000378                                | 0.000703                               | 0.000571                              |
+| std   | 5.501943e+05 | 0.034294   | 0.051782    | 0.063944       | 0.004342                     | 0.005716           | 0.005268           | 0.002125           | 0.000353                           | 0.000465                          | 0.000157                                       | 0.000158                                | 0.000292                               | 0.000279                              |
+| min   | 1.800000e+03   | -0.242779  | -0.447499   | -0.288483      | 0.023462                     | 0.028700           | 0.023828           | 0.008855           | 0.000000                           | 0.000000                          | 0.000112                                       | 0.000049                                | 0.000091                               | 0.000105                              |
+| 25%   | 9.727650e+04	  | -0.016493  | -0.025156   | -0.047847      | 0.036300                     | 0.038399           | 0.033551           | 0.013495           | 0.000312                           | 0.000196                          | 0.000275                                       | 0.000267                                | 0.000509                               | 0.000374                              |
+| 50%   | 8.825095e+05 | -0.001638  | 0.000000    | -0.006860      | 0.038993                     | 0.041591           | 0.036638           | 0.014756           | 0.000497                           | 0.000304                          | 0.000350                                       | 0.000360                                | 0.000664                               | 0.000530                              |
+| 75%   | 1.136007e+06| 0.015826   | 0.027997    | 0.028006       | 0.041513                     | 0.044913           | 0.039942           | 0.016076           | 0.000760                           | 0.000455                          | 0.000448                                       | 0.000448                                | 0.000845                               | 0.000707                              |
+| max   | 1.868275e+06| 0.162141   | 0.229167    | 0.332299       | 0.057010                     | 0.079866           | 0.059642           | 0.026648           | 0.002822                           | 0.004107                          | 0.001129                                       | 0.001256                                | 0.002410                               | 0.002179                              |
+
+
+- Return Volatility
+  - There is quite wide range in ```ret``` values (from -24.3% to +16.2%) and ```c_ret_t_t+2``` values (from -44.8% to +22.9%).
+  - This is interesting to see how big of price swings happened following the filing dates.
+  - These maybe show some reactions to the filings.
+- LM Sentiment Scores
+  - The negative LM sentiment scores are dominanting that of the positive sentiment scores.
+  - The Negative LM Score has a mean of 0.0371, over 2.5x higher than the Positive LM Score mean of 0.0149.
+  - I think this is related to the number of words in each dictionary. As said above there are 347 words in the LM positive dictionary compared to 2345 in the negative dictionary.
+- ML Sentiment Scores
+  - The Positive BHR Score has a mean of 0.0420 which is slightly higher than the Negative BHR Score mean of 0.0389.
+  - Maybe this is suggesting that firms are trying to frame their 10ks in a more positive tone which would make sense as a more positive 10k would likely lead to better returns.
+
+**Do your “contextual sentiment” measures pass some basic smell tests?**
+
+To begin, yes there is noticable variation in the measures with some values all the way at 0 and others noticeably higher than that. For example, the max for ```Positive Strategic Sentiment``` is 0.0041 and it is 0.0028 for ```Negative Strategic Sentiment```. This variation shows that the measures are not the same and are accurately showing differences in language across different firms 10ks. Although the contextual sentiment scores are generally lower this aligns with what I expected given the short list of words for each topic. I started with 10 for the first one and increased it to 15, but I didn't notice any noticeable difference, so I would likely need to include a list of well over 50-100 words to really begin raising those scores. Despite this given that there are still spikes and variation in my sentiment scores for each company, I think that they are accurately identifying any matches or patterns in the language of the 10ks. Also, all of my topics are not industry specific, so I wouldn't expect any industry to perform better than another in my analysis, so there is no concern of any bias in my contextual sentiment scores.
+
+**Are there any caveats about the sample and/or data? If so, mention them and briefly discuss possible issues they raise with the analysis.**
+
+As I mentioned already, one caveat about my data is that my contextual sentiment measures used a small set of keywords which likely led to the lower sentiment scores, however they still show fluctuation so I think they are accurate. That said, I think if you expanded the word lists this would likely increase the scores simply by matching more language on each of the topics.
+
+### Results Section
+
 
 
 
