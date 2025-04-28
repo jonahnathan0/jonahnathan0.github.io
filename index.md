@@ -23,9 +23,7 @@ _[(Fed Announcements Github Repo)](https://github.com/jonahnathan0/Fed_Announcem
 
 ## Career Objectives
 
-Write what you want. 
-
-Sell yourself!
+I am passionate about using data and strategy to solve real-world business problems. With a strong background in finance and analytics, I enjoy finding ways to drive smarter decision-making. I am open to a range of career paths, including roles in analytics, strategy and consulting, and financial analysis, where I can apply my skills and continue learning from experienced professionals. Long-term, I aspire to start my own company and am eager to build the knowledge and experience needed to make that a reality.
 
 ---
 
