@@ -29,7 +29,7 @@ I am passionate about using data and strategy to solve real-world business probl
 
 ## Hobbies
 
-Maybe include a little about these, especially if they are the kinds of things that work well in interviews.
+I enjoy playing golf, running, and staying active. I have a strong passion for music, spending time DJing, producing music, and playing the piano. I’m also a dedicated Boston sports fan and love following them all year-round.
 
 ---
 <p style="font-size:11px">Page template forked from <a href="https://github.com/evanca/quick-portfolio">evanca</a></p>
