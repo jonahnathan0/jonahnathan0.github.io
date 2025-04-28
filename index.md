@@ -32,5 +32,12 @@ I am passionate about using data and strategy to solve real-world business probl
 I enjoy playing golf, running, and staying active. I have a strong passion for music, spending time DJing, producing music, and playing the piano. I’m also a dedicated Boston sports fan and love following them all year-round.
 
 ---
+
+## Contact Information
+Professional Email: jonah.nathan.a@gmail.com
+School Email: jan226@lehigh.edu
+Phone Number: 781-956-2415
+
+---
 <p style="font-size:11px">Page template forked from <a href="https://github.com/evanca/quick-portfolio">evanca</a></p>
 <!-- Remove above link if you don't want to attibute -->
