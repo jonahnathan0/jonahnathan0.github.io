@@ -8,16 +8,16 @@ Hi! My name is Jonah Nathan. I am a junior majoring in Finance and Business Anal
 
 <!-- You can link to other websites, PDFs in this repo, and other pages in this repo -->
 
-_**[Natural language processing 10-Ks to identify risks](midterm_summary)**_
-
-<img src="images/Form-10-K.jpg?raw=true"/>
-
----
-
 _**[Analyzing Fed Announcements Dashboard](https://fedannouncements.streamlit.app/)**_
 _[(Fed Announcements Github Repo)](https://github.com/jonahnathan0/Fed_Announcements)_
 
 <img src="images/Banking-December-FOMC-announcement-live-blog.jpg?raw=true"/>
+
+---
+
+_**[Natural language processing 10-Ks to identify risks](midterm_summary)**_
+
+<img src="images/Form-10-K.jpg?raw=true"/>
 
 ---
 
