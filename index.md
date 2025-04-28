@@ -34,9 +34,9 @@ I enjoy playing golf, running, and staying active. I have a strong passion for m
 ---
 
 ## Contact Information
-Professional Email: jonah.nathan.a@gmail.com
+Professional Email: [jonah.nathan.a@gmail.com](mailto:jonah.nathan.a@gmail.com)
 <br>
-School Email: jan226@lehigh.edu
+School Email: [jan226@lehigh.edu](mailto:jan226@lehigh.edu)
 <br>
 Phone Number: 781-956-2415
 
