@@ -29,13 +29,15 @@ I am passionate about using data and strategy to solve real-world business probl
 
 ## Hobbies
 
-I enjoy playing golf, running, and staying active. I have a strong passion for music, spending time DJing, producing music, and playing the piano. I’m also a dedicated Boston sports fan and love following them all year-round.
+I enjoy playing golf, running, and staying active. I have a strong passion for music, spending time DJing, producing music, and playing the piano. I’m also a dedicated Boston sports fan and love following the teams all year-round.
 
 ---
 
 ## Contact Information
 Professional Email: jonah.nathan.a@gmail.com
+<br>
 School Email: jan226@lehigh.edu
+<br>
 Phone Number: 781-956-2415
 
 ---
