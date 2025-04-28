@@ -10,7 +10,7 @@ Hi! My name is Jonah Nathan. I am a junior majoring in Finance and Business Anal
 
 _**[Natural language processing 10-Ks to identify risks](midterm_summary)**_
 
-<img src="images/dummy_thumbnail.jpg?raw=true"/>
+<img src="images/Form-10-K.jpg?raw=true"/>
 
 ---
 
