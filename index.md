@@ -8,7 +8,7 @@ Hi! My name is Jonah Nathan. I am a junior majoring in Finance and Business Anal
 
 <!-- You can link to other websites, PDFs in this repo, and other pages in this repo -->
 
-_**[Analyzing Fed Announcements Dashboard](https://fedannouncements.streamlit.app/)**_
+_**[Analyzing Fed Announcements Dashboard](https://fed-announcements.streamlit.app/)**_
 _[(Fed Announcements Github Repo)](https://github.com/jonahnathan0/Fed_Announcements)_
 
 <img src="images/Banking-December-FOMC-announcement-live-blog.jpg?raw=true"/>
