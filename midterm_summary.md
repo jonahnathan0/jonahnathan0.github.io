@@ -113,7 +113,27 @@ As I mentioned already, one caveat about my data is that my contextual sentiment
 
 ### Results Section
 
-<img src="images/dummy_thumbnail.jpg?raw=true"/>
+<img src="images/img1.png?raw=true"/>
+
+<img src="images/img2.png?raw=true"/>
+
+<img src="images/img3.png?raw=true"/>
+
+<img src="images/img4.png?raw=true"/>
+
+<img src="images/img5.png?raw=true"/>
+
+<img src="images/img6.png?raw=true"/>
+
+<img src="images/img7.png?raw=true"/>
+
+<img src="images/img8.png?raw=true"/>
+
+<img src="images/img9.png?raw=true"/>
+
+<img src="images/img10.png?raw=true"/>
+
+<img src="images/img11.png?raw=true"/>
 
 Four discussion topics:
 
