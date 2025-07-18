@@ -23,13 +23,13 @@ _**[Natural language processing 10-Ks to identify risks](midterm_summary)**_
 
 ## Career Objectives
 
-I am passionate about using data and strategy to solve real-world business problems. With a strong background in finance and analytics, I enjoy finding ways to drive smarter decision-making. I am open to a range of career paths, including roles in analytics, strategy and consulting, and financial analysis, where I can apply my skills and continue learning from experienced professionals. Long-term, I aspire to start my own company and am eager to build the knowledge and experience needed to make that a reality.
+I am passionate about using data and strategy to solve real-world business problems. With a strong background in finance and analytics, I enjoy finding ways to drive smarter decision-making. I am open to a range of career paths, including roles in analytics, strategy, consulting, and financial analysis, where I can apply my skills and continue learning from experienced professionals. Long-term, I aspire to start my own company and am eager to build the knowledge and experience needed to make that a reality.
 
 ---
 
 ## Hobbies
 
-I enjoy playing golf, running, and staying active. I have a strong passion for music, spending time DJing, producing music, and playing the piano. I’m also a dedicated Boston sports fan and love following the teams all year-round.
+I enjoy playing golf, tennis, running, and staying active. I have a strong passion for music, spending time DJing, producing music, and playing the piano. I’m also a dedicated Boston sports fan and love following the teams all year-round.
 
 ---
 
