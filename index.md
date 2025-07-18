@@ -1,6 +1,6 @@
 ## About Me
 
-Hi! My name is Jonah Nathan. I am a junior majoring in Finance and Business Analytics at Lehigh University. During this past summer, I had the opportunity to intern at [Italian Angels for Growth](https://www.italianangels.net/en/) (IAG), a network of business angels investing in high-tech startups, as an Innovation Network Specialist in Milan, Italy. This upcoming summer, I will have the chance to intern on the Advanced Analytics & Customer Insights (AACI) team at [Fidelity Investments](https://www.fidelity.com/) in Boston.
+Hi! My name is Jonah Nathan. I am a senior majoring in Finance and Business Analytics at Lehigh University. During this summer, I am interning on the Advanced Analytics & Customer Insights (AACI) team at [Fidelity Investments](https://www.fidelity.com/) in Boston. This past summer, I had the opportunity to intern at [Italian Angels for Growth](https://www.italianangels.net/en/) (IAG), a network of business angels investing in high-tech startups, as an Innovation Network Specialist in Milan, Italy. 
 
 ---
 
