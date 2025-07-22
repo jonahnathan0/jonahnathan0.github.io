@@ -11,7 +11,7 @@ Hi! My name is Jonah Nathan. I am a senior majoring in Finance and Business Anal
 _**[Analyzing Fed Announcements Dashboard](https://fed-announcements.streamlit.app/)**_
 _[(Fed Announcements Github Repo)](https://github.com/jonahnathan0/Fed_Announcements)_
 
-<img src="images/Banking-December-FOMC-announcement-live-blog.jpg?raw=true"/>
+<img src="images/aboutthefed-federal-reserve-system-b_spotlight.jpg?raw=true"/>
 
 ---
 
@@ -23,7 +23,7 @@ _**[Natural language processing 10-Ks to identify risks](midterm_summary)**_
 
 ## Career Objectives
 
-I am passionate about using data and strategy to solve real-world business problems. With a strong background in finance and analytics, I enjoy finding ways to drive smarter decision-making. I am open to a range of career paths, including roles in analytics, strategy, consulting, and financial analysis, where I can apply my skills and continue learning from experienced professionals. Long-term, I aspire to start my own company and am eager to build the knowledge and experience needed to make that a reality.
+I’m a rising senior at Lehigh University studying Finance and Business Analytics, and a Dean’s List student with a strong academic foundation in data, strategy, and technology. I’m passionate about leveraging these strengths to solve real-world business challenges. With experience at the intersection of finance and analytics, I bring a data-driven mindset to uncover insights and drive smarter decision-making. I’m especially interested in how AI and emerging technologies are transforming how businesses operate and compete. I’m open to a range of opportunities in analytics, strategy, consulting, and financial analysis - especially roles where I can apply my skills in data-driven problem-solving and contribute meaningful work while continuing to learn from experienced professionals in dynamic, tech-forward environments.
 
 ---
 
